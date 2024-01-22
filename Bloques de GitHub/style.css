@@ -1,0 +1,46 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+h1{
+    font-family: Arial;
+    text-align: center;
+}
+
+img{
+    height: 200px;
+}
+
+#main{
+    display: block;
+    background-color: silver;
+    width: 800px;
+}
+
+#imagen{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+#frase{
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+}
+
+#personaje{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkslategrey;
+}
+
+p{
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+}
+
+a{
+    color: cadetblue;
+}
