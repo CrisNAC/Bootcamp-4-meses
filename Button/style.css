@@ -1,0 +1,30 @@
+#buscar{
+    margin: 20px;
+    background-color: white;
+    color: aquamarine;
+    width: 100px;
+    height: 25px;
+    border-color: aquamarine;
+    border-radius: 50px;
+    border-style: solid;
+
+}
+
+#plus{
+    margin: 20px;
+    background-color: aquamarine;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border-color: white;
+    border-style: solid;
+}
+
+#crear{
+    margin: 20px;
+    background-color: cornflowerblue;
+    color: white;
+    box-shadow: 2px 2px 0px 0px black;
+    padding: 5px 20px 5px 20px;
+}
