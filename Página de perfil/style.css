@@ -1,0 +1,284 @@
+
+/* reseteo */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+/* 
+Parte de los ids 
+*/
+
+/* Parte del navegador*/
+#navegador{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+
+#navCont{
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+#navList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+}
+
+#navButton{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navSubmit{
+    height: 20px;
+    width: 100px;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+/*Parte del contenido*/
+#contenidos{
+    display: flex;
+}
+
+/* Contenido de la izquierda*/
+#main{
+    flex: 3;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+#presentacion{
+    display: flex;
+    height: 400px;
+    width: 600px;
+    flex-direction: column;
+    padding: 50px 0px 0px 0px;
+}
+
+#fondo{
+    flex: 1;
+    background-color: darkcyan;
+}
+
+#desc{
+    background-color: white;
+    flex: 3;
+    padding: 50px 0 10px 20px;
+    border: 3px solid silver;
+    border-top: 0; 
+}
+
+#userImg{
+    height: 80px;
+    position: relative;
+    top: 50%;
+    left: 5%;
+    border: 3px solid silver;
+    border-radius: 100%;
+}
+
+#educacion{
+    display: flex;
+    height: 400px;
+    width: 600px;
+    flex-direction: column;
+    padding: 50px 0px 0px 0px;
+}
+
+#eduFondo{
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px 0 10px 20px;
+    background-color: rgb(52, 52, 52);
+}
+
+#eduDesc{
+    flex: 5;
+    display: flex;
+    justify-content: left;
+    padding: 10px 0 10px 20px;
+    background-color: white;
+    border: 3px solid silver;
+    border-top: 0; 
+}
+
+/* Contenido de la derecha*/
+
+#lateral{
+    display: flex;
+    flex: 2;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+#latSolicitud{
+    display: flex;
+    height: 300px;
+    width: 500px;
+    flex-direction: column;
+    padding: 50px 0px 0px 0px;
+}
+
+#latSolElem{
+    flex: 5;
+    background-color: white;
+    border: 3px solid silver;
+    border-top: 0; 
+}
+
+#numSol{
+    width: 30px;
+}
+
+#latContacto{
+    display: flex;
+    height: 400px;
+    width: 500px;
+    flex-direction: column;
+    padding: 50px 0px 0px 0px;
+}
+
+#numCon{
+    width: 50px;
+}
+
+#latConElem{
+    flex: 7;
+    background-color: white;
+    border: 3px solid silver;
+    border-top: 0; 
+}
+
+#latConEnlace{
+    flex: 1;
+    background-color: white;
+    border: 3px solid silver;
+    border-top: 0; 
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+}
+
+/* 
+Parte de las classes 
+*/
+
+.navElem{
+    padding: 20px;
+}
+
+.navEnlace{
+    text-decoration: none;
+    color: white;
+}
+
+.icon{
+    height: 15px;
+    margin: 5px;
+}
+
+.inforList{
+    list-style: none;
+    margin: 5px;
+}
+
+.eduElem{
+    list-style: none;
+    font-weight: bold;
+    margin: 10px 0px 0px 0px;
+}
+
+.eduDate{
+    list-style: none;
+    font-weight: lighter;
+    color: darkgrey;
+    margin: 5px 0px 20px 0px;
+}
+
+.latFondo{
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px 0 10px 20px;
+    background-color: rgb(52, 52, 52);
+}
+
+.num{
+    color: white;
+    background-color: gray;
+    margin: 10px;
+    border-radius: 50%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil{
+    height: 40px;
+    padding-right: 10px;
+}
+
+.listUsuario{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px 0px 5px 15px;
+}
+
+.aceptar{
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 50%;
+    margin: 0px 10px 0px 30px;
+}
+
+.rechazar{
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 50%;
+}
+
+/* 
+Parte de las etiquetas 
+*/
+
+p{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    margin: 5px;
+}
+
+h2{
+    color: white;
+}
