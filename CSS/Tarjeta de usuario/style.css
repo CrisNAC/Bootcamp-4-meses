@@ -1,0 +1,53 @@
+#main{
+    display: flex;
+    height: 300px;
+    width: 500px;
+    flex-direction: column;
+    padding: 50px;
+}
+
+#fondo{
+    flex: 1;
+    background-color: darkcyan;
+}
+
+#desc{
+    background-color: antiquewhite;
+    flex: 3;
+    padding: 50px 0 10px 20px;
+    border: 3px solid silver;
+    border-top: 0; 
+}
+
+#userImg{
+    height: 80px;
+    position: relative;
+    top: 50%;
+    left: 5%;
+    border: 3px solid silver;
+    border-radius: 100%;
+}
+
+.icon{
+    height: 15px;
+    margin: 5px;
+}
+
+.infor{
+    list-style: none;
+}
+
+p{
+    display: flex;
+    align-items: center;
+}
+
+h1, .infor{
+    margin: 5px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
