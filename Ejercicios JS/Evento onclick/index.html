@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento onclick</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div id="navegador">
+            <h1>Dojonary</h1>
+            <input placeholder="Search" type="search">
+            <button id="login" onclick="buttonLogin(this)">Login</button>
+        </div>
+        <div id="laterales"> 
+            <div id="cont_izq">
+                <div class="tarjeta">
+                    <div class="elem_izq">
+                        <h2>ninja</h2>
+                        <p><i>noun</i></p>
+                        <p>Plural:<i>ninja</i></p>
+                        <button class="btnLikes" onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <div class="desc">
+                        <p>A practitioner skilled in the 
+                            <a href="#">Japanese</a> art of
+                            <a href="#">ninjutsu</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <div class="elem_izq">
+                        <h2>ninja</h2>
+                        <p><i>noun</i></p>
+                        <p>Plural:<i>ninja</i></p>
+                        <button class="btnLikes" onclick="alert('Ninja was liked')">37 likes</button>
+                    </div>
+                    <div class="desc">
+                        <p>A 
+                            <a href="#">programmer</a>
+                            who braks down problems with 
+                            <a href="#">zen</a>-like focus
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="cont_der">
+                <div class="elem_der">
+                    <h2>Dojonary is defined by <b>YOU</b></h2>
+                    <button id="btnADD" onclick="buttonAdd(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

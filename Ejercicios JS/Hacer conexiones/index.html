@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de perfil</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="central">
+        <div id="navegador">
+            <div id="navCont">
+                <h1>Profile</h1>
+                <ul id="navList">
+                    <li class="navElem"><a class="navEnlace" href="#">Home</a></li>
+                    <li class="navElem"><a class="navEnlace" href="#">My Profile</a></li>
+                    <li class="navElem"><a class="navEnlace" href="#">Find Connectiones</a></li>
+                </ul>
+            </div>
+            <div id="navButton">
+                <button  id="navSubmit" type="submit">Sign Out</button>
+            </div>
+        </div>
+        <div id="contenidos">
+            <div id="main">
+                <div id="presentacion">
+                    <div id="fondo">
+                        <img id="userImg" src="user-circle.png" alt="User user-circle">
+                    </div>
+                    <div id="desc">
+                        <h1 id="name">Cristian Acuña</h1>
+                        <p><img class="icon" src="map-marker.png" alt="map marker"> Encarnación - Paraguay</p>
+                        <ul class="inforList">
+                            <li>Ingeniería Informática | Desarrollador Full Stack</li>
+                            <li>Experto en desarrollo de páginas web</li>
+                        </ul>
+                        <p>
+                            <img class="icon" src="gear.png" alt="Gear">
+                            <a href="#" onclick="editName('#inputEdit', '#name')">Editar portafolio</a>
+                        </p>
+                        <input type="text" placeholder="Ingrese nuevo nombre" id="inputEdit">
+                    </div>
+                </div>
+                <div id="educacion">
+                    <div id="eduFondo">
+                        <h2 id="eduTitulo">Educación</h2>
+                    </div>
+                    <div id="eduDesc">
+                        <ul id="eduList">
+                            <li class="eduElem">Coding Dojo - Full Stack Bootcamp</li>
+                            <li class="eduDate">Dec 2023 - Mar 2024</li>
+                            <li class="eduElem">Universidad - Ingeniería Informatica</li>
+                            <li class="eduDate">2021 - 2026</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="lateral">
+                <div id="latSolicitud">
+                    <div class="latFondo">
+                        <p id="numSol" class="num">2</p>
+                        <h2>Connection Requests</h2>
+                    </div>
+                    <div id="latSolElem">
+                        <ul>
+                            <li class="listUsuario" id="todd">
+                                <div class="userZone">
+                                    <img class="perfil" src="user-circle.png" alt="foto de perfil">
+                                    Todd E
+                                </div>
+                                <div>
+                                    <button class="aceptar" onclick="aceptar('#todd', '#numSol', '#numCon')"></button>
+                                    <button class="rechazar" onclick="rechazar('#todd', '#numSol')"></button>
+                                </div>
+                            </li>
+                            <li  class="listUsuario" id="phil">
+                                <div class="userZone">
+                                    <img class="perfil" src="user-circle.png" alt="foto de perfil">
+                                    Phil K
+                                </div>
+                                <div>
+                                    <button class="aceptar" onclick="aceptar('#phil', '#numSol','#numCon')"></button>
+                                    <button class="rechazar" onclick="rechazar('#phil', '#numSol')"></button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="latContacto">
+                    <div class="latFondo">
+                        <p id="numCon" class="num">498</p>
+                        <h2>Your Connections</h2>
+                    </div>
+                    <div id="latConElem">
+                        <ul>
+                            <li class="listUsuario">
+                                <img class="perfil" src="user-circle.png" alt="foto de perfil">
+                                Adrien D
+                            </li>
+                            <li class="listUsuario">
+                                <img class="perfil" src="user-circle.png" alt="foto de perfil">
+                                Anne J
+                            </li>
+                            <li class="listUsuario">
+                                <img class="perfil" src="user-circle.png" alt="foto de perfil">
+                                Alayne T
+                            </li>
+                            <li class="listUsuario">
+                                <img class="perfil" src="user-circle.png" alt="foto de perfil">
+                                Arry Y
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="latConEnlace">
+                        <a href="#">View more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
