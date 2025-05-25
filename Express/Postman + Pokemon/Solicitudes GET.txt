@@ -1,0 +1,5 @@
+GET 1: https://pokeapi.co/api/v2/pokemon/bulbasaur
+GET 2: https://pokeapi.co/api/v2/pokemon/pikachu
+GET 3: https://pokeapi.co/api/v2/pokemon/30
+GET 4: https://pokeapi.co/api/v2/pokemon/60
+GET 5: https://pokeapi.co/api/v2/pokemon/90

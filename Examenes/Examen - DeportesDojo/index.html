@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Sports News Network</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div id="liveScore">
+            <h2>Live Scores</h2>
+            <ul>
+                <li>SJC NINJAS - 314</li>
+                <li>NS Pirates - 159</li>
+            </ul>
+            <ul>
+                <li>CHI Samurai - 0</li>
+                <li>TUL Wizards - 0</li>
+            </ul>
+            <ul>
+                <li>BOS Hackets - 13</li>
+                <li>TYO Youkai - 37</li>
+            </ul>
+            <ul>
+                <li>BOI Kningts - 5</li>
+                <li>SEA Sea Lions - 11</li>
+            </ul>
+        </div>
+        <div id="navegador">
+            <h1 id="titDSNN">DSNN</h1>
+            <ul id="listSport">
+                <li>Football</li>
+                <li>Basketball</li>
+                <li>Baseball</li>
+                <li>Soccer</li>
+                <li>More...</li>
+            </ul>
+            <div id="imgsNav">
+                <img class="imgNav" src="img/search-light.png" alt="Lupa">
+                <img class="imgNav" src="img/hamburger-light.png" alt="3 barras">
+                <img class="imgNav" src="img/user-circle-light.png" alt="Foto de perfil">
+            </div>
+        </div>
+        <div id="contenido">
+            <div id="izquierda">
+                <div id="contenedor_TopStories">
+                    <h1 id="titStory">Top Stories</h1>
+                    <ul id="listStory">
+                        <li class="elemStory">Ninjas up big in 5th</li>
+                        <li class="elemStory">Best sports cities</li>
+                        <li class="elemStory">Choi joins Hall of Fame</li>
+                        <li class="elemStory">Tournament underway</li>
+                        <li class="elemStory">Samurai at Wizards...</li>
+                    </ul>
+                </div>
+                <div id="contenedor_Customize">
+                    <h2>Customize your DSNN</h2>
+                    <div id="dosBtn"> 
+                        <button id="singIn" class="btnShadow">Sign In</button>
+                        <button id="singUp" class="btnShadow">Sing Up</button>
+                    </div>
+                </div>
+                <div id="contenedor_Subscribe">
+                    <h2>Never miss a play</h2>
+                    <button id="subs" class="btnShadow" onclick="botonSubs('contenedor_Subscribe')">Subscribe</button>
+                </div>
+            </div>
+            <div id="derecha">
+                <div id="partido">
+                    <div id="titLive">
+                        <h1 id="textLive"><button id="circRed"></button>Live</h1>
+                        <h1>Ninjas Leading Pirates</h1>
+                    </div>
+                    <div id="resultado_partido">
+                        <div class="resPlayers">
+                            <img src="img/sjc-ninjas.png" alt="Logo Ninja" class="logo">
+                            <p><b>San Jose</b></p>
+                            <h1 id="player1">Ninjas</h1>
+                            <p>( 10 W - 3 L )</p>
+                            <button class="marcador" id="marcador1" onclick="marcador('marcador1')">314</button>
+                        </div>
+                        <div id="resCenter">
+                            <h1>VS</h1>
+                            <ul>
+                                <li>0:13 remaining</li>
+                                <li>5th period</li>
+                            </ul>
+                        </div>
+                        <div class="resPlayers">
+                            <img src="img/ns-pirates.png" alt="Logo Pirate" class="logo">
+                            <p><b>Nova Scotia</b></p>
+                            <h1 id="player2">Pirates</h1>
+                            <p>( 12 W - 2 L )</p>
+                            <button class="marcador" id="marcador2" onclick="marcador('marcador2')">159</button>
+                        </div>
+                    </div>
+                    <div id="desc">
+                            <p>A conservative march between the two top-performing sides in the Central 
+                                League Division with 1 seed at stake... <a href="#">get live updates</a>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

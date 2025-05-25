@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: #dddddd;
+}
+
+/* Parte de arriba - Live Scores*/
+#liveScore{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10% 10px 10%;
+    background-color: white;
+}
+
+li{
+    list-style: none;
+}
+
+/* Parte del navegador - DSNN */
+#navegador{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+}
+
+#titDSNN{
+    background-color: #ff1800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: skew(-10deg);
+    padding: 10px;
+}
+
+#listSport{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+}
+
+#imgsNav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+}
+
+.imgNav{
+    height: 30px;
+    width: 30px;
+}
+
+/* Parte del contenido */
+#contenido{
+    display: flex;
+    
+}
+
+/* Parte izquierda */
+#izquierda{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+    flex: 3;
+}
+
+#contenedor_TopStories, #contenedor_Customize, #contenedor_Subscribe{
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px 5px 0 0;
+}
+
+#contenedor_TopStories{
+    height: 250px;
+    width: 250px;
+}
+
+#listStory{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#titStory{
+    display: flex;
+    border-bottom: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    justify-content: start;
+}
+
+.elemStory{
+    margin: 5px;
+}
+
+#contenedor_Customize, #contenedor_Subscribe{
+    height: 120px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+}
+.btnShadow{
+    box-shadow: 3px 3px 0 black;
+    min-width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dosBtn{
+    display: flex;
+    min-width: 80%;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+#singIn{
+    color: white;
+    background-color: #2b78e4;
+}
+
+#singUp{
+    background-color: white;
+}
+
+#subs{
+    background-color: #ffe599;
+    width: 80%;
+}
+
+/* Parte derecha*/
+#derecha{
+    display: flex;
+    flex: 5;
+}
+
+#partido{
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px 5px 0 10px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#titLive{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 80%;
+}
+
+#circRed{
+    background-color: #ff1800;
+    height: 20px;
+    width: 20px;
+    border: none;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+#textLive{
+    color: #ff1800;
+}
+
+#resultado_partido{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    width: 100%;
+}
+
+.logo{
+    height: 200px;
+    width: 200px;
+}
+
+.marcador{
+    font-size: 70px;
+    border: none;
+    background-color: white;
+}
+.resPlayers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#resCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#player1{
+    color: #098795;
+}
+
+#player2{
+color: #ce3944;
+}
+
+#desc{
+    padding: 5px;
+    margin-top: 5px;
+}
