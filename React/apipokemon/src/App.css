@@ -1,0 +1,13 @@
+.prin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.btn{
+  background-color: #666666;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
