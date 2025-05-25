@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+input{
+    padding: 5px;
+}
+
+.prin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+.btn{
+    background-color: white;
+    box-shadow: 3px 3px 0 black;
+    margin: 10px 25px 10px 25px;
+    padding: 3px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+    background-color: #dddddd;
+    width: 400px;
+}
+
+.error{color: red;}
+
+.areatext{
+    height: 50px;
+    width: 200px;
+    padding: 5px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid black;
+    width: 400px;
+    height: 200px;
+}
+
+.dataPatient{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid black;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+
+.listPatients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 500px;
+}
