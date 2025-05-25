@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.opc1{
+  margin: 10px;
+}
+
+.opc2{
+  margin: 10px;
+}
+
+.input1{
+  margin-left: 5px;
+  width: 150px;
+  height: 30px;
+  background-color: #253858;
+  color: white;
+  border-radius: 3px;
+  border: none;
+}
+
+.input2{
+  margin: 5px;
+  border: 3px solid black;
+  padding-left: 5px;
+}
+
+.btnSubmit{
+  width: 100px;
+  height: 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: silver;
+  color: white;
+}
+
+.dataResult{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 20px 10px;
+}

@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.prin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxInput{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    background-color:  #f6f6f6;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: 2px solid silver;
+}
+
+.titulo{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entrada{
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding-left: 5px;
+}

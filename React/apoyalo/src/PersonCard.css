@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.prin{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.contenido{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 40%;
+}
+
+button{
+    background-color: #e6e6e6;
+    border-radius: 3px;
+    border: none;
+    height: 25px;
+    margin-top: 10px;
+    min-width: 200px;
+    padding: 0 5px;
+    margin-top: 15px;
+}
