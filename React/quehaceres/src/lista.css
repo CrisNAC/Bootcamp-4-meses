@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    background-color: #efefef;
+    height: 30px;
+    width: 200px;
+    margin: 20px;
+    padding-left: 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+.agregar{
+    color: white;
+    background-color: #0019f8;
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+    border: none;
+}
+
+.lista{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 5px;
+}
+
+
+.tarea, .eliminar{
+    margin: 5px;
+}
+
+.eliminar{
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color: black;
+    height: 30px;
+    width: 100px;
+}
